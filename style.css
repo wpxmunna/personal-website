@@ -32,12 +32,27 @@ p{
 .top-banner{
     background-image: url(images/header-bg.png);
     background-repeat: no-repeat;
-    background-size: auto;
 }
 .biograghy-banner{
     background-image: url(images/biography-bg.png);
     background-repeat: no-repeat;
-    background-size: auto;
+}
+.latest-work{
+    background-image: url(images/latest-work-bg.png);
+    background-repeat: no-repeat;
+}
+.latest-work h3{
+    text-align: center;
+}
+.work-side{
+    width: 25%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+
+}
+.work-side img{
+    max-width:100%;
 }
 .link-button{
     text-decoration: none;
